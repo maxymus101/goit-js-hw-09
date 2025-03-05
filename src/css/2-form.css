@@ -76,6 +76,9 @@
 .message-input {
     height: 80px;
     padding: 8px 16px;
+
+    border: 1px solid #808080;
+    border-radius: 4px;
 }
 
 .btn-submit {
