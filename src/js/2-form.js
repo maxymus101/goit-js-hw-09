@@ -6,7 +6,7 @@ const form = document.querySelector('.feedback-form');
 
 const savedData = localStorage.getItem('feedback-form-state');
 if (savedData) {
-  const formData = JSON.parse(savedData);
+  formData = JSON.parse(savedData);
   Object.entries(formData).forEach(([name, value]) => {
     form.elements[name].value = value;
   });
